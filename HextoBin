@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class HextoBin {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a Hexadecimal number:");
+        int dec = Integer.parseInt(scanner.next(), 16);
+        System.out.println("Binary number is:"+ Integer.toBinaryString(dec));
+        scanner.close();
+    }
+}
