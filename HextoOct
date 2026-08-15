@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class HextoOct {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a octal number:");
+        int dec = Integer.parseInt(scanner.next(), 16);
+        System.out.println("Hexadecimal number is:"+ Integer.toOctalString(dec));
+        scanner.close();
+    }
+}
