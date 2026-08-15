@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Binaryaddition {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input first binary number:");
+        int b1 = Integer.parseInt(scanner.next(), 2);
+        System.out.print("Input second binary number:");
+        int b2 = Integer.parseInt(scanner.next(), 2);
+        System.out.println("Sum of two binary numbers:"+ Integer.toBinaryString(b1+b2));
+        scanner.close();
+    }
+}
