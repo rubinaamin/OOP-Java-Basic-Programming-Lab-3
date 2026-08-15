@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class BintoDec {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a binary number:");
+        String bin = scanner.next();
+        System.out.println("Decimal number is:"+ Integer.parseInt(bin, 2));
+        scanner.close();
+    }
+}
