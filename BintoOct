@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class BintoOct {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a binary number:");
+        int dec = Integer.parseInt(scanner.next(), 2);
+        System.out.println("Octal number is:"+ Integer.toOctalString(dec));
+        scanner.close();
+    }
+}
