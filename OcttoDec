@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class OcttoDec {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a octal number:");
+        System.out.println("Decimal number is:"+ Integer.parseInt(scanner.next(), 8));
+        scanner.close();
+    }
+}
